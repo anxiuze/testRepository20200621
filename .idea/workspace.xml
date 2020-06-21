@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df5dd8c6-3272-4e15-9fcb-48abc1ed6c0a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="GitWorkSpace" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Softs/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Softs\maven\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aOsDFQqTP8V9HVuktQ1U8IV844" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2&#10;mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/anxiuze-persistence/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="anxiuze" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.anxiuze.demo.provider.user.po" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitWorkSpace\anxiuze-persistence\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTest">
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeneratorSqlmap" />
+      <module name="anxiuze-persistence" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test0609.MyTest" />
+      <module name="UsualTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test0609.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="biz-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="anxiuze.biz.consumer.bizconsumer.BizConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizProductorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="biz-productor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="anxiuze.bizproductor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="anxiuze.biz.productor.bizproductor.BizProductorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizProductorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="biz-productor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="anxiuze.biz.productor.bizproductor.BizProductorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoCousumerOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-cousumer-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anxiuze.demo.cousumer.order.DemoCousumerOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-provider-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anxiuze.demo.provider.user.DemoProviderUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anxiuze.test.springcloudeureka.SpringcloudEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GeneratorSqlmap" />
+      <item itemvalue="Spring Boot.BizConsumerApplication" />
+      <item itemvalue="Spring Boot.BizProductorApplication" />
+      <item itemvalue="Spring Boot.SpringcloudEurekaApplication" />
+      <item itemvalue="Spring Boot.DemoCousumerOrderApplication" />
+      <item itemvalue="Spring Boot.DemoProviderUserApplication" />
+      <item itemvalue="Application.MyTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.GeneratorSqlmap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df5dd8c6-3272-4e15-9fcb-48abc1ed6c0a" name="Default Changelist" comment="" />
+      <created>1586617852223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586617852223</updated>
+      <workItem from="1586617856996" duration="2446000" />
+      <workItem from="1586700923573" duration="1989000" />
+      <workItem from="1586853820077" duration="3813000" />
+      <workItem from="1586999966257" duration="10085000" />
+      <workItem from="1587085649366" duration="19000" />
+      <workItem from="1587218566539" duration="617000" />
+      <workItem from="1587263714246" duration="4504000" />
+      <workItem from="1587347265655" duration="6047000" />
+      <workItem from="1587437674784" duration="8648000" />
+      <workItem from="1587972887832" duration="785000" />
+      <workItem from="1590757741269" duration="4809000" />
+      <workItem from="1590835377368" duration="12643000" />
+      <workItem from="1590903196420" duration="3395000" />
+      <workItem from="1590906911680" duration="4899000" />
+      <workItem from="1590973588194" duration="158000" />
+      <workItem from="1591689579099" duration="1831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1590848162481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1590848162481" />
+    <state x="403" y="36" key="#BizProductorApplication" timestamp="1587353347826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="36" key="#BizProductorApplication/0.0.1536.824@0.0.1536.824" timestamp="1587353347826" />
+    <state x="361" y="71" key="#Notifications" timestamp="1590850746754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1590850746754" />
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1590845158851">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1590845158851" />
+    <state x="485" y="265" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1586619747334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="265" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.824@0.0.1536.824" timestamp="1586619747334" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590908646015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590908646015" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1590845917238">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590845917238" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587353418072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1587353418072" />
+    <state x="517" y="271" width="501" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586619086611">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="517" y="271" width="501" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1586619086611" />
+    <state width="407" height="466" key="DebuggerActiveHint" timestamp="1587267909041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="407" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587267909041" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586617948849">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586617948849" />
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1591691412988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591691412988" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1591691412987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591691412987" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1591691412987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591691412987" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1591691412987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591691412987" />
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom" timestamp="1590906891541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590906891541" />
+    <state width="1493" height="239" key="GridCell.Tab.1.center" timestamp="1590906891541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590906891541" />
+    <state width="1493" height="239" key="GridCell.Tab.1.left" timestamp="1590906891541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590906891541" />
+    <state width="1493" height="239" key="GridCell.Tab.1.right" timestamp="1590906891541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590906891541" />
+    <state width="1493" height="239" key="GridCell.Tab.2.bottom" timestamp="1587365348146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587365348146" />
+    <state width="1493" height="239" key="GridCell.Tab.2.center" timestamp="1587365348146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587365348146" />
+    <state width="1493" height="239" key="GridCell.Tab.2.left" timestamp="1587365348146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587365348146" />
+    <state width="1493" height="239" key="GridCell.Tab.2.right" timestamp="1587365348146">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587365348146" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1586707794450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1586707794450" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1591690166053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591690166053" />
+    <state width="512" height="446" key="SwitcherDM" timestamp="1590851826411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="512" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1590851826411" />
+    <state x="178" y="107" key="new project wizard" timestamp="1591689664657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591689664657" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1587438374791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587438374791" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591689697706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591689697706" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/biz-productor/src/test/java/anxiuze/biz/productor/bizproductor/simpleTest/TestDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/biz-productor/src/test/java/anxiuze/biz/productor/bizproductor/demo/Outer2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
