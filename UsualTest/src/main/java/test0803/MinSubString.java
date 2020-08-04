@@ -12,8 +12,8 @@ public class MinSubString {
     public static void main(String[] args) {
         MinSubString minSubString = new MinSubString();
 
-        String str1 = "abcde";
-        String str2 = "ac";
+        String str1 = "abcdea";
+        String str2 = "aa";
         int result = minSubString.minLength(str1, str2);
         System.out.println("最小字符串长度: "+result);
     }
@@ -35,14 +35,12 @@ public class MinSubString {
         int match = chas2.length;
         while (right != chas1.length) {
             map[chas1[right]]--;
-            System.out.println(map[chas1[right]]);
             if (map[chas1[right]] >= 0) {
                 match--;
             }
             if (match == 0) {
                 while (map[chas1[left]] < 0) {
                     map[chas1[left++]]++;
-                    System.out.println(map[chas1[left++]]++);
                 }
                 minLen = Math.min(minLen, right - left + 1);
                 match++;
