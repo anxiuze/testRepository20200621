@@ -13,7 +13,7 @@ public class MinSubString {
         MinSubString minSubString = new MinSubString();
 
         String str1 = "abcdea";
-        String str2 = "aa";
+        String str2 = "ac";
         int result = minSubString.minLength(str1, str2);
         System.out.println("最小字符串长度: "+result);
     }
@@ -25,6 +25,7 @@ public class MinSubString {
         }
         char[] chas1 = str1.toCharArray();
         char[] chas2 = str2.toCharArray();
+        //如果输入的字符串包含中文，则下面这个数组长度需要为65536
         int[] map = new int[256];
         for (int i = 0; i < chas2.length; i++) {
             map[chas2[i]]++;
