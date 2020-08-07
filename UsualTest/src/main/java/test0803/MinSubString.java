@@ -3,9 +3,9 @@ package test0803;
 /**
  * @author anxiuze
  * @date 2020/8/4 10:16
- * @Description:  输出str1的字串中含有str2所有字符的最小字符串长度，如果不存在请输出0。
- *      示例1：str1 = "abcde", str2 = "ac"；  输出：3； 说明："abc"中包含"ac"，且"abc"是所有满足条件中长度最小的；
- *      示例2：str1 = "12345", str2 = "344"； 输出：0；
+ * @Description: 输出str1的字串中含有str2所有字符的最小字符串长度，如果不存在请输出0。
+ * 示例1：str1 = "abcde", str2 = "ac"；  输出：3； 说明："abc"中包含"ac"，且"abc"是所有满足条件中长度最小的；
+ * 示例2：str1 = "12345", str2 = "344"； 输出：0；
  */
 public class MinSubString {
 
@@ -15,7 +15,7 @@ public class MinSubString {
         String str1 = "abcdea";
         String str2 = "ac";
         int result = minSubString.minLength(str1, str2);
-        System.out.println("最小字符串长度: "+result);
+        System.out.println("最小字符串长度: " + result);
     }
 
 
