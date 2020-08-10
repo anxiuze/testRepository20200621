@@ -1,8 +1,6 @@
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author anxiuze
@@ -74,10 +72,32 @@ public class MyTest {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
-                    int tem = arr[j];
+                    int tmp = arr[j];
                     arr[j] = arr[j + 1];
-                    arr[j + 1] = tem;
+                    arr[j + 1] = tmp;
                 }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    /**
+     * 选择排序
+     */
+    @Test
+    public void selectSort() {
+        int[] arr = new int[]{2, 24, 13, -1, 0, 34, 8};
+        for (int i = 0; i < arr.length - 1; i++) {
+            int min = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[min]) {
+                    min = j;
+                }
+            }
+            if (i != min) {
+                int tmp = arr[i];
+                arr[i] = arr[min];
+                arr[min] = tmp;
             }
         }
         System.out.println(Arrays.toString(arr));
@@ -131,7 +151,8 @@ public class MyTest {
     }
 
     /**
-     * 输入两个字符串，从第一字符串中删除第二个字符串中所有的字符。例如，输入”They are students.”和”aeiou”，则删除之后的第一个字符串变成”Thy r stdnts.”
+     * 输入两个字符串，从第一字符串中删除第二个字符串中所有的字符。
+     * 例如，输入”They are students.”和”aeiou”，则删除之后的第一个字符串变成”Thy r stdnts.”
      */
     public static String deleteSub(String str1, String str2) {
         if (str1 != null && str2 != null) {
@@ -147,4 +168,23 @@ public class MyTest {
             return null;
         }
     }
+
+    /**
+     * 3.
+     * 题目：打印出所有的 “水仙花数 “，所谓 “水仙花数 “是指一个三位数，其各位数字立方和等于该数本身。
+     * 例如：153是一个 “水仙花数 “，因为153=1的三次方＋5的三次方＋3的三次方。
+     */
+    @Test
+    public void test01() {
+        for (int i = 100; i < 1000; i++) {
+            int ge = i % 10;
+            int shi = ((i - ge) % 100) / 10;
+            int bai = ((i - (ge + (shi * 10))) % 1000) / 100;
+            if ((ge * ge * ge + (shi) * (shi) * (shi) + (bai) * (bai) * (bai)) == i) {
+                System.out.println(i);
+            }
+        }
+    }
+
+
 }
