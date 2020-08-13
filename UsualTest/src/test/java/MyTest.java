@@ -1,4 +1,5 @@
 import org.junit.Test;
+import test0810.Person;
 
 import java.util.*;
 
@@ -184,6 +185,21 @@ public class MyTest {
                 System.out.println(i);
             }
         }
+    }
+
+    @Test
+    public void test02() {
+        Person p1 = new Person("Tom", 34);
+        Person p2 = new Person("Tom", 34);
+        System.out.println(p1.equals(p2));
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p1 == p2);
+
+        HashSet set = new HashSet();
+        set.add(p1);
+        set.add(p2);
+        System.out.println(set);
     }
 
 
