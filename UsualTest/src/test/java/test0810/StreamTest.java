@@ -77,6 +77,16 @@ public class StreamTest {
         List<Student> skipList = students.stream().filter(student -> "土木工程".equals(student.getMajor())).skip(2).collect(Collectors.toList());
         System.out.println(skipList);
 
+        //****************************** 映射 ******************************************
+        //map 筛选出所有专业为土木工程的学生姓名
+        List<String> names = students.stream().filter(student -> "土木工程".equals(student.getMajor())).map(Student::getName).distinct().collect(Collectors.toList());
+        System.out.println(names);
+
+        //除了上面这类基础的map，java8还提供了
+        //mapToDouble(ToDoubleFunction<? super T> mapper)，mapToInt(ToIntFunction<? super T> mapper)，mapToLong(ToLongFunction<? super T> mapper)，这些映射分别返回对应类型的流
+        int sumAge = students.stream().filter(student -> "土木工程".equals(student.getMajor())).mapToInt(Student::getAge).sum();
+        System.out.println(sumAge);
+
 
 
     }
