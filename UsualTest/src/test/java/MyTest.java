@@ -44,7 +44,7 @@ public class MyTest {
     public void test1() {
 
         int a = 0;
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 99; i++) {
             a = a++;
         }
         System.out.println(a);
@@ -55,7 +55,7 @@ public class MyTest {
 
         int a = 0;
         int b = 0;
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 5; i++) {
             a = a++;
             b = a++;
         }
