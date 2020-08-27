@@ -1,6 +1,7 @@
 import org.junit.Test;
 import test0810.Person;
 
+import javax.crypto.spec.PSource;
 import java.util.*;
 
 /**
@@ -200,6 +201,51 @@ public class MyTest {
         set.add(p1);
         set.add(p2);
         System.out.println(set);
+    }
+
+    @Test
+    public void test03() {
+        int num = getTryResult();
+        System.out.println("tryResult = " + num);
+
+        int finallyResult = getFinallyResult();
+        System.out.println("finallyResult = " + finallyResult);
+    }
+
+    /**
+     * @author anxiuze
+     * @date 2020/8/27 15:17
+     * @Description: 如果程序是从try代码块或者catch代码块中返回时，finally中的代码总会执行。而且finally语句在return语句执行之后return返回之前执行的
+     * 如果try和catch的return是一个变量时且函数的是从其中一个返回时，后面finally中语句即使有对返回的变量进行赋值的操作时，也不会影响返回的值
+     */
+    public int getTryResult() {
+        int a = 0;
+        try {
+            a = 3;
+            System.out.println("try  a = " + a);
+            return a;
+        } finally {
+            a += 1;
+            System.out.println("finally a = " + a);
+        }
+    }
+
+    /**
+     * @author anxiuze
+     * @date 2020/8/27 15:20
+     * @Description: 当finally有返回值时，会直接返回。不会再去返回try或者catch中的返回值。
+     */
+    public int getFinallyResult() {
+        int a = 0;
+        try {
+            a = 3;
+            System.out.println("try  a = " + a);
+            return a;
+        } finally {
+            a += 1;
+            System.out.println("finally a = " + a);
+            return a;
+        }
     }
 
 
