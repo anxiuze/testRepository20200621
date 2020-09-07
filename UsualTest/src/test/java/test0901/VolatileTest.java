@@ -1,5 +1,7 @@
 package test0901;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author anxiuze
  * @date 2020/9/3 16:02
@@ -7,29 +9,40 @@ package test0901;
  */
 public class VolatileTest {
 
-    private static int count = 0;
-
     public static void main(String[] args) throws InterruptedException {
-        Thread[] threads = new Thread[10];
+        Count test = new Count();
+        Thread[] threads = new Thread[2];
 
         for (int i = 0; i < threads.length; i++) {
             threads[i] = new Thread(() -> {
-                for (int n = 0; n < 1000; n++) {
-                    increment(count);
+                for (int mm = 0; mm < 10000; mm++) {
+                    test.increment();
+
                 }
             });
             threads[i].start();
+            TimeUnit.MILLISECONDS.sleep(50);
         }
 
         for (Thread thread : threads) {
             thread.join();
         }
 
-        System.out.println(count);
+        System.out.println(test.getCount());
     }
 
-    private static void increment(int count) {
-        count++;
+
+    static class Count {
+        private int count = 0;
+
+        public int getCount() {
+            return count;
+        }
+
+        private void increment() {
+            count++;
+        }
+
     }
 
 }
