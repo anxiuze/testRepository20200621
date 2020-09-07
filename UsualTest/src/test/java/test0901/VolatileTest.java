@@ -1,5 +1,6 @@
 package test0901;
 
+import javax.management.remote.rmi._RMIConnection_Stub;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -29,6 +30,17 @@ public class VolatileTest {
         }
 
         System.out.println(test.getCount());
+
+        //如下代码有问题
+        Work work = new Work();
+        for (int i = 0; i < 10; i++) {
+            new Thread(() -> {
+                work.doWork();
+            }).start();
+            if (i == 5) {
+                new Thread(work::shutDown).start();
+            }
+        }
     }
 
 
@@ -43,6 +55,24 @@ public class VolatileTest {
             count++;
         }
 
+    }
+
+
+    static class Work {
+
+        private volatile boolean isShutDown = false;
+
+        void doWork() {
+            while (!isShutDown) {
+                System.out.println("machine is running!");
+            }
+
+        }
+
+        void shutDown() {
+            System.out.println("shutDown......");
+            isShutDown = true;
+        }
     }
 
 }
