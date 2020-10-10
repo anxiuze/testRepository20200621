@@ -11,6 +11,7 @@ public class ParentAndChildTest {
 
     public static void main(String[] args) {
         ChildrenClass childrenClass = new ChildrenClass();
+        ChildrenClass.staticMethod();
         childrenClass.method();
     }
 }
